@@ -1,3 +1,113 @@
 @import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Open Sans, sans-serif;
+  display: flex;
+}
+
+header, footer {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+form {
+  background-color: #81b1f0;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  height: 50%;
+  padding: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+}
+
+#area-quote, #author {
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+  transition: all 2ms;
+}
+
+#area-quote:focus, #author:focus {
+  background-color: #e4e9f2;
+  outline: 1px solid #1d69ce;
+  transform: scale(1.1);
+}
+
+#submit-btn {
+  color: #d8d6d6;
+  cursor: pointer;
+  background-color: #1d69ce;
+  border: none;
+  border-radius: 12px;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding: 12px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+#submit-btn:hover {
+  color: #272626;
+  background-color: #cef2de;
+}
+
+.quote {
+  background-color: #e4e9f2;
+  border-radius: 12px;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+#quotes-container {
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+@media screen and (width <= 768px) {
+  form {
+    width: 60%;
+    height: 60%;
+    font-size: 1rem;
+  }
+
+  #submit-btn {
+    width: 60%;
+    font-size: .75rem;
+  }
+
+  #area-quote {
+    width: 100%;
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=TestRepetatFE.3a01df49.css.map */
