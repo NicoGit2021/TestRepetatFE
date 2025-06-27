@@ -100,6 +100,7 @@ outline:1px solid #1d69ce;
     display:flex;
     gap:20px;
     justify-content:space-around;
+    flex-wrap:wrap;
     align-items:center;
 }
 

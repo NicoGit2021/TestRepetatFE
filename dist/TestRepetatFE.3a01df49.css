@@ -87,6 +87,7 @@ form {
 }
 
 #quotes-container {
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 20px;

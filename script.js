@@ -21,6 +21,7 @@ async function getQuotes(){
 
 let form = document.querySelector("#form");
 let addButton = document.querySelector("#submit-btn");
+let textarea = document.querySelector("#area-quote");
 let container = document.querySelector("#quotes-container")
 
 function createCard(quoteReceived){
@@ -38,3 +39,36 @@ function createCard(quoteReceived){
 }
 
 getQuotes();
+
+let authorInput = document.querySelector("#author"); 
+
+form.addEventListener("submit", async function (e) {
+  e.preventDefault(); 
+
+  const newQuote = {
+    quote: textarea.value,
+    author: authorInput.value
+  };
+
+
+  try {
+  
+    await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newQuote)
+    });
+
+
+    textarea.value = "";
+    authorInput.value = "";
+
+    container.innerHTML = ""; 
+    getQuotes();
+
+  } catch (error) {
+    console.error("Eroare la trimiterea citatului:", error);
+  }
+});

@@ -2,15 +2,53 @@
   "quotes": [
     {
       "quote": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs"
+      "author": "Steve Jobs",
+      "id": "abdc"
     },
     {
       "quote": "In the middle of every difficulty lies opportunity.",
-      "author": "Albert Einstein"
+      "author": "Albert Einstein",
+      "id": "9feb"
     },
     {
       "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill"
+      "author": "Winston Churchill",
+      "id": "b632"
+    },
+    {
+      "id": "ab8e",
+      "quote": "fgfgfg",
+      "author": "fgfgf"
+    },
+    {
+      "id": "6f63",
+      "quote": "",
+      "author": "fgfgfg"
+    },
+    {
+      "id": "f2e3",
+      "quote": "fgfgfg",
+      "author": ""
+    },
+    {
+      "id": "fce7",
+      "quote": "",
+      "author": "fgfg"
+    },
+    {
+      "id": "8a65",
+      "quote": "Enter your quote here...",
+      "author": ""
+    },
+    {
+      "id": "91d7",
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": "ce82",
+      "quote": "",
+      "author": ""
     }
   ]
 }
