@@ -1,0 +1,25 @@
+{
+  "name": "testrepetatfe",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "server": "json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoGit2021/TestRepetatFE.git"
+  },
+  "author": "Nicoleta Cojuhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoGit2021/TestRepetatFE/issues"
+  },
+  "homepage": "https://github.com/NicoGit2021/TestRepetatFE#readme",
+  "description": "",
+  "dependencies": {
+    "bundler": "^0.8.0",
+    "json-server": "^1.0.0-beta.3",
+    "parcel": "^2.15.4"
+  }
+}
