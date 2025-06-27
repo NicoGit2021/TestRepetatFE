@@ -11,18 +11,20 @@
         <h1>Read and add quotes</h1>
     </header>
     <main>
-        <form action="/submit" method="post">
-            <label for="quote">Please write a quote</label>
-            <textarea id="quote" name="quote">Enter your quote here...</textarea>
-             <label for="author">Please write the quote's author</label>
-            <input type="text" name="author" id="author"></input>
+        <form id="form" action="/submit" method="post">
+            <label for="quote">Please write a quote:</label>
+            <textarea id="area-quote" name="quote">Enter your quote here...</textarea>
+             <label for="author">Please write the quote's author:</label>
+            <input type="text" name="author" id="author" placeholder="Author's name"></input>
             <button id="submit-btn" type="submit">Add quote</button>
         </form>
         <section id="quotes-list">
 
         </section>
     </main>
-    <footer>Copyright 2025</footer>
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
